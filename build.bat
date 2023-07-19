@@ -1,9 +1,9 @@
 @echo off
-set unityDir=C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
+set unityExecutable=C:\Program Files\Unity\Hub\Editor\2022.3.4f1\Editor\Unity.exe
 set projectDirectory=D:\dev\gamedev\GDFG Game Jam July 2023
 
-IF NOT EXIST "%unityDir%" (
-    echo Unity Not Installed, or incorrect unityDir variable
+IF NOT EXIST "%unityExecutable%" (
+    echo Unity Not Installed, or incorrect unityExecutable variable
     pause
     exit /b
 )
@@ -41,8 +41,7 @@ echo Previous build removed
 echo:
 
 echo Starting WebGL Build. May take a few minutes.
-cd "%unityDir%"
-cmd /C ".\Unity.exe -quit -batchmode -nographics -projectProject %projectDirectory% -executeMethod WebGLBuilder.build"
+cmd /C "%unityExecutable% -quit -batchmode -nographics -projectProject %projectDirectory% -executeMethod WebGLBuilder.build"
 echo Build Complete
 echo:
 echo Committing v%version% to GitHub
