@@ -41,7 +41,7 @@ echo Previous build removed
 echo:
 
 echo Starting WebGL Build. May take a few minutes.
-cmd /C /S ""%unityExecutable%" -quit -batchmode -nographics -projectProject "%projectDirectory%" -executeMethod WebGLBuilder.build"
+cmd /S /C ""%unityExecutable%" -quit -batchmode -nographics -projectProject "%projectDirectory%" -executeMethod WebGLBuilder.build"
 echo Build Complete
 echo:
 echo Committing v%version% to GitHub
