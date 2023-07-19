@@ -41,7 +41,7 @@ echo Previous build removed
 echo:
 
 echo Starting WebGL Build. May take a few minutes.
-cd %unityDir%
+cd "%unityDir%"
 cmd /C ".\Unity.exe -quit -batchmode -nographics -projectProject %projectDirectory% -executeMethod WebGLBuilder.build"
 echo Build Complete
 echo:
