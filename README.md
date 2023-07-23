@@ -1,11 +1,23 @@
 # Changelog
 
 <details>
+<summary>0.2.0</summary>
+    
+>July 22, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+
+## What's Changed
+*  Added Enemy colliders to each body part
+*  Enabled ragdoll for enemy when they die
+</details>
+
+<details>
 <summary>0.1.5</summary>
     
 >July 20, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/0.1.5/)
 
 ## What's Changed
 *  Added enemy animations
