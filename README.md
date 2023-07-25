@@ -1,11 +1,27 @@
 # Changelog
 
 <details>
+<summary>0.3.0</summary>
+    
+>July 25, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+
+## What's Changed
+*  Prevent player from sprinting while aiming
+*  Fixed arrow pickup mechanic
+*  Added enemy attack trigger, and animation
+*  Enemy damages player if player is hit
+*  If player's life reaches 0, they die
+*  Added ragdoll to player
+</details>
+
+<details>
 <summary>0.2.0</summary>
     
 >July 22, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/0.2.0/)
 
 ## What's Changed
 *  Added Enemy colliders to each body part
