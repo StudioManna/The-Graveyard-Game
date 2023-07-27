@@ -1,11 +1,23 @@
 # Changelog
 
 <details>
+<summary>0.3.1</summary>
+    
+>July 26, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+
+## What's Changed
+*  Fixed the build error
+*  Fixed bug causing arrow to freeze immediately in the air
+</details>
+
+<details>
 <summary>0.3.0</summary>
     
 >July 25, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+No Playable demo due to build error
 
 ## What's Changed
 *  Prevent player from sprinting while aiming
