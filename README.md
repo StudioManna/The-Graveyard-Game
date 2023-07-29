@@ -1,11 +1,25 @@
 # Changelog
 
 <details>
+<summary>0.5.0</summary>
+    
+>July 28, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+
+## What's Changed
+ * Finished building rough structure of building
+ * Created landscape outside
+ * Added more enemies throughout the building
+ * Added fog
+</details>
+
+<details>
 <summary>0.4.1</summary>
     
 >July 26, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/0.4.1/)
 
 ## What's Changed
  * Enemy follows player when they are within a certain distance
