@@ -1,11 +1,24 @@
 # Changelog
 
 <details>
+<summary>0.6.0</summary>
+    
+>July 29, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+
+## What's Changed
+ * Added instruction text
+ * Added enemies to the map
+ * Finished creating triggers for different in game events
+</details>
+
+<details>
 <summary>0.5.0</summary>
     
 >July 28, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/0.5.0/)
 
 ## What's Changed
  * Finished building rough structure of building
