@@ -1,7 +1,7 @@
 # Changelog
 
 <details>
-<summary>0.6.0</summary>
+<summary>0.6.1</summary>
     
 >July 29, 2023
 
