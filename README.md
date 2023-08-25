@@ -1,11 +1,26 @@
 # Changelog
 
 <details>
+<summary><h2>0.6.2</h2></summary>
+
+>August 25, 2023
+
+[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game)
+
+### What's Changed
+ * Fixed bug with aiming/firing controls being reversed.
+ * Added attack audio for enemies.
+ * Added audio for when enemy spots player.
+ * Moved scripts with triggers to be on individual game objects rather than being on the Progression game object as I was running into performance issues with the one Game Object checking all triggers every frame.
+ * Added audio for arrow.
+</details>
+
+<details>
 <summary>0.6.1</summary>
     
 >July 29, 2023
 
-[Playable Demo](https://studiomanna.github.io/The-Graveyard-Game/)
+No playable demo due to build error
 
 ## What's Changed
  * Added instruction text
